@@ -1,0 +1,84 @@
+#body {
+   display: flex;
+   justify-content: space-around;
+   flex-direction: row;
+   position: fixed;
+    top: 0px;
+    right: 0px;
+}
+
+.picture {
+   display: flex;
+   height: 50vw;
+   width: 99vw;
+   position: fixed;
+      top: 0px;
+      right: 0px;
+      left: 0px;
+      bottom: 0px;
+   z-index: -1;
+}
+
+.box1 {
+   display: flex;
+   width: 100vw;
+   height: 150px;
+}
+
+.container-top-left {
+   display: flex;
+   justify-content: space-around;
+   flex-direction: row;
+   flex-wrap: wrap-reverse;
+   align-items: flex-end;
+   width: 65vw;
+   height: 125px;
+}
+
+.spacex-logo {
+   display: flex;
+   background-color: transparent;
+   width: 200px;
+   height: 70px;
+}
+
+.container-top-right {
+   display: flex;
+   justify-content: flex-end;
+   flex-direction: row;
+   flex-wrap: wrap-reverse;
+   align-items: flex-end;
+   width: 30vw;
+   height: 125px;
+
+}
+
+.nav {
+   display: flex;
+   justify-content: space-around;
+   flex-direction: row;
+
+}
+
+.nav-falcon-9 {
+   color: white;
+}
+.nav-falcon-heavy {
+   color: white;
+}
+.nav-dragon {
+   color: white;
+}
+.nav-starship {
+   color: white;
+}
+.nav-human {
+   color: white;
+}
+.nav-rideshare {
+   color: white;
+}
+.nav-shop {
+   color: white;
+}
+
